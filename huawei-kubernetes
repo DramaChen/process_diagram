@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-08-06T06:50:08.825Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="wd1v61wHmOBMs3NGK5JU" version="14.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-06T10:45:25.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="B0qfTOa5vgTwfAIELOQ6" version="14.9.4" type="github">
   <diagram id="rXDoGbjZl4zlifNFxqBy" name="Page-1">
-    <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1449" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="rUI-IrX1Z8N9ubcjxaN3-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="960" width="670" height="180" as="geometry" />
+          <mxGeometry x="-130" y="960" width="670" height="300" as="geometry" />
         </mxCell>
         <mxCell id="AWtqT2xQfRdP_GfYlsVa-36" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-80" y="360" width="510" height="210" as="geometry" />
@@ -297,6 +297,21 @@
         </mxCell>
         <mxCell id="rUI-IrX1Z8N9ubcjxaN3-28" value="DaemonSet确保每个Node运行一份pod副本，node加入集群时创建Pod，离开集群时回收pod；使用场景：运行集群存储守护进程、运行和集群日志收集守护进程，运行节点监控守护进程&lt;br&gt;- 需要将DaemonSet中的restart policy字段设置默认Always&lt;br&gt;- DaemonSet同样会受到taint的抵制；需要配置中加入toleration，则可以在拥有taint属性的node上部署pod" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rUI-IrX1Z8N9ubcjxaN3-24">
           <mxGeometry x="40" y="60" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rUI-IrX1Z8N9ubcjxaN3-29" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="1140" width="620" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rUI-IrX1Z8N9ubcjxaN3-30" value="Kubernetes的网络模型假定所有Pod都在一个可以直接连通的扁平网络空间中；&lt;br&gt;- 通过Pod的多个容器中： 公用的pause，localhost即可访问&lt;br&gt;- 各Pod之间的通信，Overlay Network&lt;br&gt;&lt;div&gt;&lt;span&gt;- Pod与Service之间的通讯，各节点Iptables规则；或Lvs&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="1150" width="480" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rUI-IrX1Z8N9ubcjxaN3-31" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1290" width="490" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rUI-IrX1Z8N9ubcjxaN3-32" value="Flannel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="95" y="1300" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rUI-IrX1Z8N9ubcjxaN3-33" value="让集群中不同节点创建的Docker容器都具有全集群唯一的虚拟Ip；并且在IP地址之间建立覆盖网络，基于覆盖网络解决Pod之间的通信问题" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="1330" width="440" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
