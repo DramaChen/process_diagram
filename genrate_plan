@@ -1,1 +1,91 @@
-<mxfile host="app.diagrams.net" modified="2021-09-03T10:16:31.829Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" version="14.9.6" etag="CAQYUy3kM-lGn24S6x72" type="github"><diagram id="cTZ8B6j8fuJ8bRpjF92a">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-03T10:32:23.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="n7AQNQjt8iPR-wNACp62" version="14.9.6" type="github">
+  <diagram id="cTZ8B6j8fuJ8bRpjF92a" name="Page-1">
+    <mxGraphModel dx="2858" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EWCiJrS_Sde5qYHay324-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EWCiJrS_Sde5qYHay324-1" target="EWCiJrS_Sde5qYHay324-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-1" value="行业知识学习" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EWCiJrS_Sde5qYHay324-2" target="EWCiJrS_Sde5qYHay324-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-2" value="知识沉淀" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EWCiJrS_Sde5qYHay324-4" target="EWCiJrS_Sde5qYHay324-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-4" value="发掘需求" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EWCiJrS_Sde5qYHay324-6" target="EWCiJrS_Sde5qYHay324-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-6" value="提供服务" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EWCiJrS_Sde5qYHay324-8" target="EWCiJrS_Sde5qYHay324-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-8" value="广告投放" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EWCiJrS_Sde5qYHay324-10" target="EWCiJrS_Sde5qYHay324-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-10" value="变现模式" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-12" value="运营目标设计" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-14" value="知识储备" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;swimlaneFillColor=#FFE599;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="400" width="310" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-23" value="咖啡知识" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;gradientColor=none;" vertex="1" parent="EWCiJrS_Sde5qYHay324-14">
+          <mxGeometry x="10" y="30" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-24" value="宠物行业" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;gradientColor=none;" vertex="1" parent="EWCiJrS_Sde5qYHay324-14">
+          <mxGeometry x="10" y="80" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-25" value="香薰行业" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;gradientColor=none;" vertex="1" parent="EWCiJrS_Sde5qYHay324-14">
+          <mxGeometry x="10" y="130" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-26" value="答题领域" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;gradientColor=none;" vertex="1" parent="EWCiJrS_Sde5qYHay324-14">
+          <mxGeometry x="10" y="184" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-28" value="文本处理" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;gradientColor=none;" vertex="1" parent="EWCiJrS_Sde5qYHay324-14">
+          <mxGeometry x="10" y="240" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-30" value="品牌营销" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;gradientColor=none;" vertex="1" parent="EWCiJrS_Sde5qYHay324-14">
+          <mxGeometry x="10" y="290" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-15" value="行业知识学习" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-16" value="知识沉淀" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-17" value="行业知识学习" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-18" value="知识沉淀" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-19" value="行业知识学习" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-20" value="知识沉淀" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EWCiJrS_Sde5qYHay324-21" value="发掘需求" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
