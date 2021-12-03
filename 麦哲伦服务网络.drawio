@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T07:17:27.881Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="TSiaNyN_T34FVXp3qi9Z" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-03T07:18:06.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="8HRwdbNY8eDnmznFwQ4Y" version="15.7.3" type="github">
   <diagram id="muZA9YSw4MGFrPJknFsy" name="Page-1">
     <mxGraphModel dx="1673" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,7 +67,7 @@
         <mxCell id="nfPuu5cRxcaGdbBw-N8y-36" value="&lt;b&gt;数据缓存服务&lt;/b&gt;&lt;br&gt;&lt;br&gt;dm-magellan-cache-server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="nfPuu5cRxcaGdbBw-N8y-29">
           <mxGeometry x="640" y="50" width="153.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nfPuu5cRxcaGdbBw-N8y-30" value="dm-magellan-gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="nfPuu5cRxcaGdbBw-N8y-30" value="服务网关&lt;br&gt;&lt;br&gt;dm-magellan-gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="414" y="250" width="165" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nfPuu5cRxcaGdbBw-N8y-31" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="nfPuu5cRxcaGdbBw-N8y-29" target="nfPuu5cRxcaGdbBw-N8y-30">
@@ -81,7 +81,7 @@
             <mxPoint x="-2" y="17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nfPuu5cRxcaGdbBw-N8y-32" value="dm-magellan-auth-server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="nfPuu5cRxcaGdbBw-N8y-32" value="鉴权系统&lt;br&gt;&lt;br&gt;dm-magellan-auth-server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="801.5" y="250" width="165" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nfPuu5cRxcaGdbBw-N8y-33" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nfPuu5cRxcaGdbBw-N8y-30" target="nfPuu5cRxcaGdbBw-N8y-32">
